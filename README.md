@@ -19,7 +19,7 @@ Soy estudiante de "Licenciatura en Sistemas" y un apasionado Full-stack develope
 
 ## DataBase
 
-![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ## ORM
 
