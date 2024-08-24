@@ -1,13 +1,13 @@
-### Hola a todos! 👋 
+### Hello everyone! 👋 
 
-Soy Victor Roberto Curzio y les doy la bienvenida a mi perfil de GitHub.
+I'm Victor and I welcome you to my GitHub profile.
 
-Soy estudiante de "Licenciatura en Sistemas" y un apasionado desarrollador Full-stack de Argentina.
+I am a "Bachelor in Systems" student and a passionate Full-stack developer from Argentina.
 
-## 🌐Red social
+## 🌐Social Network
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-roberto-curzio/)
 
-# 💻Habilidades técnicas
+# 💻Technical Skills
 
 ## Front-End
 
