@@ -2,7 +2,7 @@
 
 Soy Victor Roberto Curzio y les doy la bienvenida a mi perfil de GitHub.
 
-Soy estudiante de "Licenciatura en Sistemas" y un apasionado Full-stack developer de Argentina.
+Soy estudiante de "Licenciatura en Sistemas" y un apasionado desarrollador Full-stack de Argentina.
 
 ## 🌐Red social
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-roberto-curzio/)
@@ -15,12 +15,8 @@ Soy estudiante de "Licenciatura en Sistemas" y un apasionado Full-stack develope
 
 ## Back-End
 
-![Ruby](https://img.shields.io/badge/Ruby-%23CC0000?logo=Ruby&logoColor=white) 
+![Ruby](https://img.shields.io/badge/Ruby-%23CC0000?logo=Ruby&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)
 
 ## DataBase
 
 ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-## ORM
-
-![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)
