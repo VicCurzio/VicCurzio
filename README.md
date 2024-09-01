@@ -17,6 +17,6 @@ I am a "Bachelor in Systems" student and a passionate Full-stack developer from 
 
 ![Ruby](https://img.shields.io/badge/Ruby-%23CC0000?logo=Ruby&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)
 
-## DataBase
+## Database
 
 ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
