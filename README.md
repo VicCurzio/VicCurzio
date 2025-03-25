@@ -17,13 +17,8 @@ I'm Victor, a passionate **Full-stack Developer** from Argentina 🇦🇷, curre
 ## Database
 ![Supabase](https://img.shields.io/badge/Supabase-%23000000?logo=supabase&logoColor=3ECF8E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&width=30)
-![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge&width=50)
-
-
 ## 🛠️ Tools
 ![Git](https://img.shields.io/badge/Git-%23F05032?logo=Git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23181717?logo=GitHub&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC?logo=visual-studio-code&logoColor=white)
 
 ## 📬 Contact Me
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-roberto-curzio/) [![Outlook](https://img.shields.io/badge/Outlook-0078D4?logo=microsoft-outlook&logoColor=white)](mailto:victor.curzio@hotmail.com)
