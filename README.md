@@ -1,10 +1,10 @@
 ### Hello everyone! 👋  
 
-I'm Victor, a passionate **Full-stack Developer** from Argentina 🇦🇷, currently studying **Bachelor in Systems**.  
+I'm Victor, a passionate **Full-stack Developer** from Argentina, currently studying **Bachelor in Systems**.
 
-🚀 I love working with **Next.js, Node.js, and Supabase** to build scalable web applications.  
-💡 Always learning and improving my skills in **backend, frontend, and database design**.  
-🎯 My goal is to create innovative and efficient software solutions.  
+🚀 I love working with **Next.js, Node.js, and Supabase** to build scalable web applications.
+💡 Always learning and improving my skills in **backend, frontend, and database design**.
+🎯 My goal is to create innovative and efficient software solutions.
 
 # 💻 Technical Skills
 
