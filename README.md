@@ -15,7 +15,7 @@ I'm Victor, a passionate **Full-stack Developer** from Argentina, currently stud
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933?logo=node.js&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)  
 
 ## Database
-![Supabase](https://img.shields.io/badge/Supabase-%23000000?logo=supabase&logoColor=3ECF8E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white&style=for-the-badge) ![Supabase](https://img.shields.io/badge/Supabase-%23000000?logo=supabase&logoColor=3ECF8E)
 
 ## 🛠️ Tools
 ![Git](https://img.shields.io/badge/Git-%23F05032?logo=Git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23181717?logo=GitHub&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC?logo=visual-studio-code&logoColor=white)
