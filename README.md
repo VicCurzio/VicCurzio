@@ -11,11 +11,11 @@ I am a "Bachelor in Systems" student and a passionate Full-stack developer from 
 
 ## Front-End
 
-![HTML5](https://img.shields.io/badge/Html5-%23E34F26?logo=Html5&logoColor=white) ![CSS3](https://img.shields.io/badge/Css3-%231572B6?logo=Css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C?logo=Bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/Javascript-%23323330?logo=Javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/React-%2320232a?logo=React&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/Html5-%23E34F26?logo=Html5&logoColor=white) ![CSS3](https://img.shields.io/badge/Css3-%231572B6?logo=Css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C?logo=Bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/Javascript-%23323330?logo=Javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/React-%2320232a?logo=React&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/Next.js-%23000000?logo=next.js&logoColor=white)
 
 ## Back-End
 
-![Ruby](https://img.shields.io/badge/Ruby-%23CC0000?logo=Ruby&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933?logo=node.js&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white)
 
 ## Database
 
