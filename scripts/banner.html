@@ -4,8 +4,12 @@
   scripts/build-banner.mjs.
 
   Misma identidad que el portfolio: la paleta NES de src/app/retro.css y sus
-  dos tipografias, Press Start 2P para los carteles y VT323 para leer. Si el
-  portfolio cambia de colores, esto se actualiza con el.
+  dos tipografias, Press Start 2P para los carteles y VT323 para leer.
+
+  La mitad derecha lleva el panel de numeros porque es lo primero que mira un
+  recruiter y lo unico que no puede decir cualquiera. Los tres salen del
+  trabajo en Grupo DELSUD y son los mismos que estan en el CV y en LinkedIn:
+  si cambian alla, cambian aca.
 -->
 <html lang="en"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,41 +19,62 @@
   :root{
     --nes-black:#05060c; --nes-navy:#101a3a; --nes-blue:#2b4a8a;
     --nes-cyan:#3fb8c8; --nes-amber:#f7d51d; --nes-white:#e8f4ff;
-    --edge:#3a4c78;
+    --panel:#0b1226; --edge:#3a4c78; --muted:#7f97a6; --text2:#bcd4e2;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{width:1280px;height:400px;background:var(--nes-black);overflow:hidden;position:relative}
+  body{width:1280px;height:440px;background:var(--nes-black);overflow:hidden;position:relative;
+       font-family:"Press Start 2P",monospace}
   .grid{position:absolute;inset:0;
     background-image:linear-gradient(var(--nes-navy) 1px, transparent 1px),
                      linear-gradient(90deg, var(--nes-navy) 1px, transparent 1px);
-    background-size:32px 32px;opacity:.45}
+    background-size:32px 32px;opacity:.4}
+  .glow{position:absolute;width:900px;height:900px;left:-320px;top:-340px;border-radius:50%;
+    background:radial-gradient(circle, rgba(63,184,200,.13) 0%, transparent 60%)}
+  .frame{position:absolute;inset:18px;border:4px solid var(--nes-blue)}
+  .stage{position:absolute;inset:18px;display:flex;align-items:stretch}
+
+  .left{flex:1;padding:44px 0 72px 56px;display:flex;flex-direction:column;justify-content:center}
+  .kicker{font-size:12px;letter-spacing:.32em;color:var(--nes-cyan)}
+  .dot{display:inline-block;width:8px;height:8px;background:var(--nes-cyan);margin-right:12px;vertical-align:1px}
+  h1{font-size:46px;line-height:1.34;color:var(--nes-white);text-shadow:5px 5px 0 var(--nes-blue);
+     margin-top:26px;letter-spacing:.02em}
+  .lead{font-family:VT323,monospace;font-size:30px;color:var(--text2);margin-top:28px;letter-spacing:.02em;max-width:480px;line-height:1.25}
+
+  .right{width:420px;padding:44px 56px 72px 24px;display:flex;align-items:center}
+  .panel{width:100%;border:4px solid var(--edge);background:var(--panel);padding:26px 26px 22px}
+  .panel-title{font-size:10px;letter-spacing:.26em;color:var(--muted);border-bottom:2px solid var(--edge);
+               padding-bottom:14px}
+  .row{margin-top:20px}
+  .val{font-size:26px;color:var(--nes-amber);text-shadow:3px 3px 0 #7a6a0a}
+  .lab{font-family:VT323,monospace;font-size:21px;color:var(--text2);margin-top:9px;letter-spacing:.04em}
+
+  .hud{position:absolute;left:74px;right:74px;bottom:40px;display:flex;justify-content:space-between;
+       font-size:11px;letter-spacing:.2em;color:var(--muted)}
   .scan{position:absolute;inset:0;
     background:repeating-linear-gradient(to bottom, rgba(0,0,0,0) 0 2px, rgba(0,0,0,.16) 2px 4px)}
-  .glow{position:absolute;width:760px;height:760px;right:-230px;top:-300px;border-radius:50%;
-    background:radial-gradient(circle, rgba(63,184,200,.14) 0%, transparent 62%)}
-  .frame{position:absolute;inset:18px;border:4px solid var(--nes-blue)}
-  .inner{position:absolute;inset:18px;padding:52px 60px 94px;display:flex;flex-direction:column;justify-content:center}
-  .kicker{font-family:"Press Start 2P",monospace;font-size:12px;letter-spacing:.34em;color:var(--nes-cyan)}
-  h1{font-family:"Press Start 2P",monospace;font-size:50px;line-height:1.32;color:var(--nes-white);
-     text-shadow:5px 5px 0 var(--nes-blue);margin-top:26px;letter-spacing:.02em}
-  .lead{font-family:VT323,monospace;font-size:31px;color:#bcd4e2;margin-top:30px;letter-spacing:.02em}
-  .hud{position:absolute;left:78px;right:78px;bottom:42px;display:flex;justify-content:space-between;align-items:center;
-       font-family:"Press Start 2P",monospace;font-size:11px;letter-spacing:.2em;color:#7f97a6}
-  .hud .on{color:var(--nes-amber)}
-  .dot{display:inline-block;width:8px;height:8px;background:var(--nes-cyan);margin-right:10px;vertical-align:1px}
 </style></head>
 <body>
   <div class="grid"></div>
   <div class="glow"></div>
   <div class="frame"></div>
-  <div class="inner">
-    <div class="kicker"><span class="dot"></span>FULL-STACK DEVELOPER</div>
-    <h1>VICTOR<br>CURZIO</h1>
-    <div class="lead">I build management systems that people use every day to work.</div>
+  <div class="stage">
+    <div class="left">
+      <div class="kicker"><span class="dot"></span>FULL-STACK DEVELOPER</div>
+      <h1>VICTOR<br>CURZIO</h1>
+      <div class="lead">I build management systems that people use every day to work.</div>
+    </div>
+    <div class="right">
+      <div class="panel">
+        <div class="panel-title">IN PRODUCTION</div>
+        <div class="row"><div class="val">200+</div><div class="lab">contracts in production</div></div>
+        <div class="row"><div class="val">3s &rarr; 0.6s</div><div class="lab">heaviest queries, indexed</div></div>
+        <div class="row"><div class="val">5</div><div class="lab">dev team, as tech reference</div></div>
+      </div>
+    </div>
   </div>
   <div class="hud">
     <span>LA PLATA &middot; ARGENTINA</span>
-    <span class="on">SYSTEMS IN PRODUCTION</span>
+    <span>GRUPO DELSUD &middot; 2WINGS</span>
   </div>
   <div class="scan"></div>
 </body></html>
