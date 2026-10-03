@@ -2,6 +2,18 @@
 
 [Portfolio](https://viccurzio.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/victor-roberto-curzio/) · [victor.curzio@hotmail.com](mailto:victor.curzio@hotmail.com)
 
+## About me
+
+<img align="right" width="200" src="assets/avatar.png" alt="Pixel-art figure with a scarf in the wind, the same character that opens my portfolio.">
+
+- I build **management systems**: the kind where a consistency bug costs real money, not a bad layout.
+- What interests me is not the tools, it is the **trade-offs**. Why this architecture and not another one. What breaks when the system doubles in size. Which technical debt is worth taking on today and which one mortgages next year.
+- Technical reference for a five-person team at **Grupo DELSUD**, and technical lead of a B2B platform as a freelancer.
+- Studying **Licenciatura en Sistemas** at Universidad Nacional de La Plata, alongside a full-time job, for the groundwork the day-to-day does not give: algorithms, concurrency, operating systems and databases.
+- Based in **La Plata, Argentina**. I work remotely.
+
+<br clear="all">
+
 ## Where my code runs
 
 **Grupo DELSUD** — technical reference for a five-person team.
@@ -54,14 +66,4 @@ Python. Bulk WhatsApp messages from a spreadsheet, with a graphical interface an
 
 ## Stack
 
-|  |  |
-|---|---|
-| **Back end** | TypeScript, Node, NestJS, Fastify, Express, Python, Ruby on Rails |
-| **Front end** | React, Next.js, Vite, Tailwind, Material UI |
-| **Data** | PostgreSQL, MySQL, Drizzle, Sequelize, Redis, BullMQ |
-| **Infrastructure** | Docker, nginx, PM2, GitHub Actions, Linux, Cloudflare, Vercel |
-| **Testing** | Playwright, Vitest |
-
-## Studying
-
-Licenciatura en Sistemas at Universidad Nacional de La Plata, alongside a full-time job. What I am after there is the groundwork the day-to-day does not give: algorithms, concurrency, operating systems and databases.
+![Stack. Back end: TypeScript, Node, NestJS, Fastify, Express, Python, Ruby on Rails. Front end: React, Next.js, Vite, Tailwind, Material UI. Data: PostgreSQL, MySQL, Drizzle, Sequelize, Redis, BullMQ. Infrastructure: Docker, nginx, PM2, GitHub Actions, Linux, Cloudflare, Vercel. Testing: Playwright, Vitest.](assets/stack.png)

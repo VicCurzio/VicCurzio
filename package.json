@@ -4,7 +4,9 @@
   "type": "module",
   "description": "README del perfil de GitHub y el generador de su banner.",
   "scripts": {
-    "banner": "node scripts/build-banner.mjs"
+    "banner": "node scripts/build-banner.mjs",
+    "avatar": "node scripts/build-avatar.mjs",
+    "stack": "node scripts/build-stack.mjs"
   },
   "devDependencies": {
     "playwright-core": "^1.63.0"

@@ -1,0 +1,43 @@
+{
+  "HERO": [
+    "....kkkkkk....",
+    "...khhhhhhk...",
+    "..khhhhhhhhk..",
+    "..khffffffhk..",
+    "..khfkffkfhk..",
+    "..khffffffhk..",
+    "...kffffffk...",
+    "...kcccccck...",
+    "..kcbbbbbbck..",
+    ".kbbbbbbbbbbk.",
+    ".kbbwwwwwwbbk.",
+    ".kbbwwwwwwbbk.",
+    ".kbbbbbbbbbbk.",
+    "..kbbbbbbbbk..",
+    "..kssssssssk..",
+    "...kss..ssk...",
+    "...kss..ssk...",
+    "...kss..ssk...",
+    "..kkkk..kkkk..",
+    "..kkkk..kkkk.."
+  ],
+  "SCARF": [
+    ".........ccc",
+    "....cccccccc",
+    "..cccccc....",
+    "ccccc.......",
+    "..cc........"
+  ],
+  "PALETTE": {
+    ".": "transparent",
+    "k": "#05060c",
+    "h": "#1b1420",
+    "f": "#f0c8a0",
+    "b": "#2b4a8a",
+    "w": "#e8f4ff",
+    "s": "#151a2e",
+    "c": "#3fb8c8",
+    "a": "#f7d51d",
+    "x": "currentColor"
+  }
+}

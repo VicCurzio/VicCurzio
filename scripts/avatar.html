@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  Fuente de assets/avatar.png, la figura que acompania el "About me".
+
+  El dibujo NO se inventa aca: sale de src/components/retro/pixelArt.ts del
+  repositorio del portfolio, copiado a scripts/sprites.json por
+  scripts/build-avatar.mjs. Es el mismo personaje del opening del sitio, con la
+  bufanda al viento, para que el perfil y el portfolio muestren lo mismo.
+
+  Cada caracter del mapa es un pixel y la letra elige el color de la paleta.
+-->
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  :root{ --nes-black:#05060c; --nes-navy:#101a3a; --nes-blue:#2b4a8a; --edge:#3a4c78; --panel:#0b1226; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:360px;height:420px;background:var(--nes-black);position:relative;overflow:hidden}
+  .grid{position:absolute;inset:0;
+    background-image:linear-gradient(var(--nes-navy) 1px, transparent 1px),
+                     linear-gradient(90deg, var(--nes-navy) 1px, transparent 1px);
+    background-size:24px 24px;opacity:.45}
+  .frame{position:absolute;inset:12px;border:4px solid var(--nes-blue);background:rgba(11,18,38,.55)}
+  .stage{position:absolute;inset:12px;display:flex;align-items:center;justify-content:center}
+  .sprite{position:relative}
+  .px{position:absolute;width:12px;height:12px}
+  .glow{position:absolute;width:320px;height:320px;left:20px;top:40px;border-radius:50%;
+    background:radial-gradient(circle, rgba(63,184,200,.12) 0%, transparent 62%)}
+  .scan{position:absolute;inset:0;
+    background:repeating-linear-gradient(to bottom, rgba(0,0,0,0) 0 2px, rgba(0,0,0,.16) 2px 4px)}
+</style></head>
+<body>
+  <div class="grid"></div>
+  <div class="glow"></div>
+  <div class="frame"></div>
+  <div class="stage"><div class="sprite" id="sprite"></div></div>
+  <script>
+    const PX = 12;
+    function draw(map, palette, offsetX, offsetY, host) {
+      map.forEach((row, y) => {
+        [...row].forEach((ch, x) => {
+          const color = palette[ch];
+          if (!color || color === "transparent") return;
+          const d = document.createElement("div");
+          d.className = "px";
+          d.style.left = (offsetX + x) * PX + "px";
+          d.style.top = (offsetY + y) * PX + "px";
+          d.style.background = color;
+          host.appendChild(d);
+        });
+      });
+    }
+    // Los mapas los inyecta scripts/build-avatar.mjs antes de navegar: un
+    // fetch() desde file:// lo bloquea el navegador por CORS.
+    {
+      const { HERO, SCARF, PALETTE } = window.__SPRITES;
+      const host = document.getElementById("sprite");
+      host.style.width = HERO[0].length * PX + "px";
+      host.style.height = HERO.length * PX + "px";
+      // La bufanda vuela hacia la izquierda, a la altura del cuello.
+      draw(SCARF, PALETTE, -6, 7, host);
+      draw(HERO, PALETTE, 0, 0, host);
+      document.body.dataset.ready = "1";
+    }
+  </script>
+</body></html>
