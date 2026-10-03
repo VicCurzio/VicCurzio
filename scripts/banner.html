@@ -1,0 +1,55 @@
+<!doctype html>
+<!--
+  Fuente del banner del perfil (assets/banner.png). Lo renderiza
+  scripts/build-banner.mjs.
+
+  Misma identidad que el portfolio: la paleta NES de src/app/retro.css y sus
+  dos tipografias, Press Start 2P para los carteles y VT323 para leer. Si el
+  portfolio cambia de colores, esto se actualiza con el.
+-->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --nes-black:#05060c; --nes-navy:#101a3a; --nes-blue:#2b4a8a;
+    --nes-cyan:#3fb8c8; --nes-amber:#f7d51d; --nes-white:#e8f4ff;
+    --edge:#3a4c78;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1280px;height:400px;background:var(--nes-black);overflow:hidden;position:relative}
+  .grid{position:absolute;inset:0;
+    background-image:linear-gradient(var(--nes-navy) 1px, transparent 1px),
+                     linear-gradient(90deg, var(--nes-navy) 1px, transparent 1px);
+    background-size:32px 32px;opacity:.45}
+  .scan{position:absolute;inset:0;
+    background:repeating-linear-gradient(to bottom, rgba(0,0,0,0) 0 2px, rgba(0,0,0,.16) 2px 4px)}
+  .glow{position:absolute;width:760px;height:760px;right:-230px;top:-300px;border-radius:50%;
+    background:radial-gradient(circle, rgba(63,184,200,.14) 0%, transparent 62%)}
+  .frame{position:absolute;inset:18px;border:4px solid var(--nes-blue)}
+  .inner{position:absolute;inset:18px;padding:52px 60px 94px;display:flex;flex-direction:column;justify-content:center}
+  .kicker{font-family:"Press Start 2P",monospace;font-size:12px;letter-spacing:.34em;color:var(--nes-cyan)}
+  h1{font-family:"Press Start 2P",monospace;font-size:50px;line-height:1.32;color:var(--nes-white);
+     text-shadow:5px 5px 0 var(--nes-blue);margin-top:26px;letter-spacing:.02em}
+  .lead{font-family:VT323,monospace;font-size:31px;color:#bcd4e2;margin-top:30px;letter-spacing:.02em}
+  .hud{position:absolute;left:78px;right:78px;bottom:42px;display:flex;justify-content:space-between;align-items:center;
+       font-family:"Press Start 2P",monospace;font-size:11px;letter-spacing:.2em;color:#7f97a6}
+  .hud .on{color:var(--nes-amber)}
+  .dot{display:inline-block;width:8px;height:8px;background:var(--nes-cyan);margin-right:10px;vertical-align:1px}
+</style></head>
+<body>
+  <div class="grid"></div>
+  <div class="glow"></div>
+  <div class="frame"></div>
+  <div class="inner">
+    <div class="kicker"><span class="dot"></span>FULL-STACK DEVELOPER</div>
+    <h1>VICTOR<br>CURZIO</h1>
+    <div class="lead">I build management systems that people use every day to work.</div>
+  </div>
+  <div class="hud">
+    <span>LA PLATA &middot; ARGENTINA</span>
+    <span class="on">SYSTEMS IN PRODUCTION</span>
+  </div>
+  <div class="scan"></div>
+</body></html>

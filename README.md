@@ -1,31 +1,37 @@
-### Hello everyone! 👋  
+![Victor Roberto Curzio, full-stack developer in La Plata, Argentina: I build management systems that people use every day to work.](assets/banner.png)
 
-I'm Victor, a passionate **Full-stack Developer** from Argentina**.
+[Portfolio](https://viccurzio.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/victor-roberto-curzio/) · [victor.curzio@hotmail.com](mailto:victor.curzio@hotmail.com)
 
-🚀 Currently focused on building scalable web applications with **Next.js, Node.js, and TypeScript**.
-💡 I have a strong interest in **Software Architecture** and optimizing production-grade systems like CRMs.
-🎯 My goal is to create innovative, efficient, and maintainable software solutions using **Clean Code** principles.
+## Where my code runs
 
-# 💻 Technical Skills
+**Grupo DELSUD.** Technical reference for a team of five. I designed a plot-sales management system from scratch — Node, TypeScript and Drizzle, twenty modules covering contracts, collections, cash flow and inflation indexing — and integrated it with the CRM already running in production: two databases, two ORMs, bidirectional sync, no downtime. Fifteen people operate it today, over more than 200 contracts.
 
-## Front-End
-![Next.js](https://img.shields.io/badge/Next.js-%23000000?logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-%2320232a?logo=React&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/Javascript-%23323330?logo=Javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/Html5-%23E34F26?logo=Html5&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?logo=tailwindcss&logoColor=white&width=100) ![Material UI](https://img.shields.io/badge/Material--UI-%230081CB?logo=material-ui&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C?logo=Bootstrap&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white) ![CSS3](https://img.shields.io/badge/Css3-%231572B6?logo=Css3&logoColor=white) 
+Now I work on the group's internal ERP: ten repositories, one microservice per department. I built the workday time-tracking module end to end, from the data model to the interface, on an immutable append-only log that no one can edit after the fact. Twenty people across three departments use it. I also took the heaviest queries from 3 seconds down to 0.6 by indexing them.
 
-## Back-End
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?logo=typescript&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-%23000000?logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-%23339933?logo=node.js&logoColor=white) ![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?logo=Ruby-on-Rails&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?logo=JSON%20web%20tokens)
+**2winGs International Group LLC** (freelance). Technical lead of a B2B creative-talent platform. The architecture decisions are mine: NestJS on Fastify, PostgreSQL with Drizzle, Redis queues with BullMQ, a React front on Cloudflare Pages, and the API on a dedicated server under PM2 behind nginx. Deployment runs on GitHub Actions — it builds off the server, applies the migrations and only then restarts. The database is dumped daily to a provider other than the one hosting the server, and restored against a throwaway database, because a backup nobody restored is not a backup.
 
-## Database
-![Supabase](https://img.shields.io/badge/Supabase-%23000000?logo=supabase&logoColor=3ECF8E) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/Mysql-%2300f?logo=Mysql&logoColor=white) 
+Both are private repositories. What follows is public.
 
-## ORMs
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?logo=Sequelize&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?logo=drizzle&logoColor=black)
+## What is in here
 
-## 🛠️ Tools
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white) ![Git](https://img.shields.io/badge/Git-%23F05032?logo=Git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23181717?logo=GitHub&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-%232496ED?logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC?logo=visual-studio-code&logoColor=white)
+**[vault-rag](https://github.com/VicCurzio/vault-rag)** — Meaning-based search and a question-answering agent over a folder of markdown notes. 340 notes indexed into 5,338 chunks, hybrid search by meaning and by exact words, embeddings computed on the machine itself so indexing costs nothing and measuring a change is free. The automated evaluation sits at 89% recall and 100% rejection over 34 questions, and it deliberately includes questions whose answer is not in the notes: a green run that was never given anything to reject does not prove the guard is switched on.
 
-### 🌱 I'm always open to new challenges and collaborating on exciting projects!
+**[cv-match](https://github.com/VicCurzio/cv-match)** — A tool to build and adapt a CV to the market it is going to, and to whether a person or an automated filter will read it. Everything runs in the browser, with no server and no database, because a CV carries personal data and has no reason to leave the machine. The PDF is generated as real text instead of an image, so a filter can actually read it. More than 300 tests over the domain.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/victor-roberto-curzio/) or send me an email at 
-[victor.curzio@hotmail.com](mailto:victor.curzio@hotmail.com). 
+**[musik](https://github.com/VicCurzio/musik)** — Installable player that reads the music already on the device. No account, no server, no ads, and no file ever leaves the phone. Volume is evened out by measuring each track on import and only attenuating, because amplifying a quiet track digitally distorts it. Tag reading runs on a separate thread and the list paints in blocks, so importing hundreds of files does not freeze the interface.
 
-Thanks for visiting my profile! 😄
+**[portfolio](https://github.com/VicCurzio/portfolio)** — My own site, in Spanish and English, with an 8-bit console look. The same content file also generates eleven CVs as PDFs, one per kind of role, so a change to my experience never has to be copied by hand into a document.
+
+**[plagas-out](https://github.com/VicCurzio/plagas-out)** — Landing page for a pest control service. The contact form sends real email with no backend of its own, and falls back to the visitor's mail client if the send fails, so a query is never silently lost.
+
+**[bot_whatsapp](https://github.com/VicCurzio/bot_whatsapp)** — Python. Bulk WhatsApp messages from a spreadsheet.
+
+## Stack
+
+TypeScript and Node (NestJS, Fastify, Express), React and Next.js, PostgreSQL and MySQL with Drizzle and Sequelize, Redis with BullMQ, Python and Ruby on Rails.
+
+Docker, nginx, PM2, GitHub Actions, Linux, Cloudflare, Vercel. Playwright and Vitest.
+
+## Studying
+
+Licenciatura en Sistemas at Universidad Nacional de La Plata, alongside a full-time job. What I am after there is the groundwork the day-to-day does not give: algorithms, concurrency, operating systems and databases.
