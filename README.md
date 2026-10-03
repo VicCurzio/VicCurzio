@@ -66,4 +66,10 @@ Python. Bulk WhatsApp messages from a spreadsheet, with a graphical interface an
 
 ## Stack
 
-![Stack. Back end: TypeScript, Node, NestJS, Fastify, Express, Python, Ruby on Rails. Front end: React, Next.js, Vite, Tailwind, Material UI. Data: PostgreSQL, MySQL, Drizzle, Sequelize, Redis, BullMQ. Infrastructure: Docker, nginx, PM2, GitHub Actions, Linux, Cloudflare, Vercel. Testing: Playwright, Vitest.](assets/stack.png)
+|  |  |
+|---|---|
+| **Back end** | TypeScript, Node, NestJS, Fastify, Express, Python, Ruby on Rails |
+| **Front end** | React, Next.js, Vite, Tailwind, Material UI |
+| **Data** | PostgreSQL, MySQL, Drizzle, Sequelize, Redis, BullMQ |
+| **Infrastructure** | Docker, nginx, PM2, GitHub Actions, Linux, Cloudflare, Vercel |
+| **Testing** | Playwright, Vitest |

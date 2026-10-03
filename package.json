@@ -6,7 +6,6 @@
   "scripts": {
     "banner": "node scripts/build-banner.mjs",
     "avatar": "node scripts/build-avatar.mjs",
-    "stack": "node scripts/build-stack.mjs",
     "social": "node scripts/build-social.mjs"
   },
   "devDependencies": {
